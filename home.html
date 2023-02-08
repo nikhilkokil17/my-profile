@@ -2,15 +2,84 @@
 <html>
     <head>
       <title> Links Learning</title>
+      <style>
+        header{
+            color: rgb(243, 93, 6);
+            font-size: larger;
+            background-color: rgb(236, 243, 210);
+            border-radius: 20px;
+            margin-left: 700px;
+            margin-right: 50px;
+            padding-left: 50px;
+        }
+        .professional {
+            color:rgb(226, 100, 16) ;
+            background-color: rgb(201, 228, 105);
+
+        
+        }
+        .career{
+            border-style: solid;
+            background-color: crimson;
+            box-shadow: inset;
+            margin-top: 50px;
+            margin-left: 10px;
+            margin-right: 15px;
+            margin-bottom: 20px;
+        }
+        .professional{
+            padding-left: 20px;
+            padding-top: 50px;
+            padding-right: 30px;
+            padding-bottom: 20px;
+        }
+        
+        span{
+            color: rgb(44, 10, 236);
+        }
+        #experience {
+            color: rgb(168, 39, 7);
+            background-color: rgb(201, 228, 105);
+        } 
+        .links{
+            padding-left: 120PX
+
+        }
+
+      </style>
+       <!-- CDN link -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
+    <header>
+        <i class="fa fa-user-circle" aria-hidden="true"></i><b>Mohit sharma</b>
+        <i class="fa fa-mobile" aria-hidden="true"></i><b>8600555099</b>
+        <i class="fa fa-envelope" aria-hidden="true"></i><b>mohitsharma@gmail.com</b>
+
+    </header>
+    <br>
+    <nav class="links">
+        <a href="home.html">Home</a>&nbsp;&nbsp;
+        <a href="teckStack.html">Teck Stack</a>&nbsp;&nbsp;
+        <a href="Education.html">Education</a>&nbsp;&nbsp;
+        <a href="project.html">project</a>&nbsp;&nbsp;
+        <a href="Hobbies.html">Hobbies</a>&nbsp;&nbsp;
+        <a href="Personal.html">Personal</a>&nbsp;&nbsp;
+    </nav>
     <body>
-        <h2>Professional Summary </h2>
+        <br>
+    <fieldset>
+        <h2 class="career"> Career Objectives </h2>
+        <p>TO WORK IN ORGANIZATION WHERE I CAN LEARN AND GROW MY SKILLS AND HELP ORGANIZATIONAL GROWTH</p>
+        <h2 class="professional">Professional Summary </h2>
         <ul>
-            <li> Having 5 Years experience in developing single page Web Application using Angular 13,HTML5,Bootstrap5,JavaScript,ES6,TypeScript </li>
-            <li>Experience on Working With Vesion control system- GIT and GitHub</li>
+            <li> Having 5 Years experience in developing single page Web Application using <span>Angular 8</span>,HTML5,Bootstrap5,JavaScript,ES6,TypeScript </li>
+            <li id="experience">Experience on Working With Vesion control system- GIT and GitHub</li>
             <li>Experience Working With jira for user storis and bug tracking</li>
             <li>Knowledge of NodeJS</li>
             <li>Knowledge of Api And database </li>
         </ul>
+       
+
+    </fieldset> 
     </body>
 </html>
