@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title> Student Registration</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+      <style>
+        input[type="text"]{
+            color: brown;
+            border: 2px solid chocolate;
+        }
+        input[type="number"]{
+            color: aqua;
+            border: 2px solid blueviolet;
+        }
+        label{
+            color: brown;
+        }
+        h2{
+            font-family: 'Lora', serif;
+        }
+        #background{
+            background-color: rgb(130, 204, 218);
+        }
+
+      </style>
+    </head>
+    <body id="background">
+        <h2> Student Registration Form </h2>
+
+            <table>
+                <tbody> 
+                    <tr> 
+                        <td> <label> First Name </label>  </td>
+                        <td> <input type="text" maxlength="10" required autofocus placeholder="First Name with only 10 chars" > </td>
+                    </tr>  
+                    <tr>
+                       <td> <label> Last Name </label> </td> 
+                       <td>  <input type="text" placeholder="Pls Last name only">   </td>  
+                    </tr>
+                    <tr>
+                        <td> <label> Age </label></td>
+                        <td> <input type="number" max="98" required> </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Mobile Number </label> </td> 
+                        <td> <input type="number">  </td>  
+                    </tr>
+
+                    <tr>
+                        <td> <label> Email </label> </td> 
+                        <td> <input type="email">  </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Password </label> </td> 
+                        <td> <input type="password">  </td>
+                        
+                    </tr>
+
+                    <tr>
+                       <td>  <label> Date Of Birth </label>   </td>
+                       <td> <input type="date">   </td>
+                    </tr>
+                    <tr>
+                        <td>  <label> country </label>   </td>
+                        <td> <input type="text" value="india" readonly>   </td>
+                     </tr>
+
+                    <tr>
+                        <td> <label> Select Degree  </label> </td>
+                        <td> 
+                            <select>
+                                <option> MCA </option>
+                                <option> BE </option>
+                                <option> BCA </option>
+                                <option> BBA </option>
+                                <option> MCS </option>
+                                <option> BSC</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr> 
+                        <td> <label> Select Gender </label> </td>
+                        <td> 
+                            <input type="radio" name="gender"> <label> Male </label>
+                            <input type="radio" name="gender"> <label> Female </label>
+                            <input type="radio" name="gender"> <label> Others </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Select you hobby </label>  </td>
+                        <td>  
+                            <input type="checkbox"> <label> Reading </label>
+                            <input type="checkbox"> <label> Watching Motivation Videos </label>
+                            <input type="checkbox"> <label> Dancing </label>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> Upload Profile Photo </label> </td>
+                        <td> <input type="file"> </td>
+                    </tr>
+
+                    <tr> 
+                        <td> <label> Upload Graduation Mark sheets</label></td>
+                        <td> <input type="file" multiple> </td>
+                    </tr>
+
+                    <tr> 
+                        <td> <label> Present Address </label>  </td>
+                        <td>  <textarea rows="5" cols="40"></textarea> </td>
+                    </tr>
+                    <tr>
+                        <td> <button type="submit"> Submit </button>  </td>
+                        <td>  <button type="reset"> Reset </button>  </td>
+                    </tr>
+
+
+                </tbody>
+            </table>
+        </form>
+        
+    </fieldset>
+       
+    </body>
+</html>
